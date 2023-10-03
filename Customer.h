@@ -58,11 +58,6 @@ void Customer ::ViewDetails()
             getline(account_ss, account_status, ',');
             getline(account_ss, account_balance, ',');
             getline(account_ss, account_date, ',');
-            // std::cout <<"Account Number:"<< account_number <<endl;
-            // cout <<"Account Type: "<< account_type <<endl;
-            // cout<<"Account Status: "<< account_status << endl;
-            // cout <<"Account Balance: "<<account_balance << endl;
-            // cout<<"Account Opening Date: " <<account_date << std::endl;
             cout << account_number << "\t\t" << account_type << "\t\t" << account_status << "\t" << account_balance << "\t" << account_date << std::endl;
         }
     }
